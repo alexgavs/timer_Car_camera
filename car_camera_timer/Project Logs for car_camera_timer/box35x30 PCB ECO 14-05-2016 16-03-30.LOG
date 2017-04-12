@@ -1,0 +1,110 @@
+Change Component Footprint: Designator=C2 Old Footprint=CAP_TAN_A1206 New Footprint=CAP_0805
+Change Component Footprint: Designator=C6 Old Footprint=CAPC2220(5750)230_N New Footprint=AVX-CAPC3528_V
+Added Component: Designator=FRONT(RCA)
+Added Component: Designator=OUTPUT(RCA)
+Added Component: Designator=P?(MHDR1X4)
+Added Component: Designator=P?(MHDR1X6)
+Added Component: Designator=REAR(RCA)
+Added Component: Designator=U3(948F-01_N)
+Added Pin To Net: NetName=NewNet8 Pin=C1-1
+Added Pin To Net: NetName=NewNet8 Pin=C2-1
+Added Pin To Net: NetName=NewNet8 Pin=C4-1
+Added Pin To Net: NetName=NewNet8 Pin=FRONT-1
+Added Pin To Net: NetName=NewNet8 Pin=FRONT-1
+Added Pin To Net: NetName=NewNet4 Pin=FRONT-2
+Added Pin To Net: NetName=NewNet4 Pin=FRONT-3
+Added Pin To Net: NetName=NewNet8 Pin=GFRONT-1
+Added Pin To Net: NetName=NewNet8 Pin=GOUT-1
+Added Pin To Net: NetName=NewNet8 Pin=GREAR-1
+Added Pin To Net: NetName=NewNet8 Pin=HC4052-6
+Added Pin To Net: NetName=NewNet8 Pin=HC4052-7
+Added Pin To Net: NetName=NewNet8 Pin=HC4052-8
+Added Pin To Net: NetName=NewNet8 Pin=HC4052-9
+Added Pin To Net: NetName=NewNet8 Pin=OUTPUT-1
+Added Pin To Net: NetName=NewNet8 Pin=OUTPUT-1
+Added Pin To Net: NetName=NewNet6 Pin=OUTPUT-2
+Added Pin To Net: NetName=NewNet6 Pin=OUTPUT-3
+Added Pin To Net: NetName=NewNet2 Pin=P?-1
+Added Pin To Net: NetName=NewNet6 Pin=P?-1
+Added Pin To Net: NetName=NewNet1 Pin=P?-2
+Added Pin To Net: NetName=NewNet8 Pin=P?-2
+Added Pin To Net: NetName=NewNet5 Pin=P?-3
+Added Pin To Net: NetName=NewNet8 Pin=P?-3
+Added Pin To Net: NetName=NewNet8 Pin=P?-4
+Added Pin To Net: NetName=NewNet9 Pin=P?-4
+Added Pin To Net: NetName=NewNet4 Pin=P?-5
+Added Pin To Net: NetName=NewNet8 Pin=P?-6
+Added Pin To Net: NetName=NewNet8 Pin=Q3-2
+Added Pin To Net: NetName=NewNet11 Pin=R1-2
+Added Pin To Net: NetName=NewNet8 Pin=REAR-1
+Added Pin To Net: NetName=NewNet8 Pin=REAR-1
+Added Pin To Net: NetName=NewNet5 Pin=REAR-2
+Added Pin To Net: NetName=NewNet5 Pin=REAR-3
+Added Pin To Net: NetName=NewNet8 Pin=U1-1
+Added Pin To Net: NetName=NewNet8 Pin=U3-6
+Added Pin To Net: NetName=NewNet8 Pin=U3-7
+Added Pin To Net: NetName=NewNet8 Pin=U3-8
+Added Pin To Net: NetName=NewNet8 Pin=U3-9
+Added Pin To Net: NetName=NewNet16 Pin=U3-16
+Change Net Name : Old Net Name=NewNet1 New Net Name=FROM_REVERSE
+Change Net Name : Old Net Name=NewNet2 New Net Name=CAMERA+12V
+Change Net Name : Old Net Name=NewNet4 New Net Name=V1_Y1
+Change Net Name : Old Net Name=NewNet5 New Net Name=V1_Y0
+Change Net Name : Old Net Name=NewNet6 New Net Name=VIDEO_OUT1
+Change Net Name : Old Net Name=NewNet7 New Net Name=FRONT_SW
+Change Net Name : Old Net Name=NewNet8 New Net Name=GND
+Change Net Name : Old Net Name=NewNet9 New Net Name=BAT12V
+Change Net Name : Old Net Name=NewNet10 New Net Name=Net3296-TRRIMER-1M_2
+Change Net Name : Old Net Name=NewNet11 New Net Name=12V
+Change Net Name : Old Net Name=NewNet13 New Net Name=NetR5_2
+Change Net Name : Old Net Name=NewNet14 New Net Name=NetR4_2
+Change Net Name : Old Net Name=NewNet15 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NewNet16 New Net Name=VCC
+Change Net Name : Old Net Name=NewNet18 New Net Name=NetLD1_1
+Change Net Name : Old Net Name=NewNet19 New Net Name=NetQ2_1
+Change Net Name : Old Net Name=NewNet20 New Net Name=NetQ3_3
+Change Net Name : Old Net Name=NewNet21 New Net Name=NetQ1_4
+Change Net Name : Old Net Name=NewNet22 New Net Name=NetQ3_1
+Change Net Name : Old Net Name=NewNet23 New Net Name=NetQ1_1
+Added Pin To Net: NetName=V2_Y0 Pin=HC4052-1
+Added Net: Name=V2_Y0
+Added Pin To Net: NetName=V2_Y1 Pin=HC4052-5
+Added Net: Name=V2_Y1
+Added Member To Class: ClassName=Sheet2 Member=Component 3296-TRRIMER-1M 1M
+Added Member To Class: ClassName=Sheet2 Member=Component C1 Cap_Tan_1210
+Added Member To Class: ClassName=Sheet2 Member=Component C2 Cap_0805
+Added Member To Class: ClassName=Sheet2 Member=Component C4 Cap_0805
+Added Member To Class: ClassName=Sheet2 Member=Component C5 CAP 47uF 25V 2220(5750)
+Added Member To Class: ClassName=Sheet2 Member=Component C6 TAJB106K020R
+Added Member To Class: ClassName=Sheet2 Member=Component FR.AV CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT 12V CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component GFRONT CON1
+Added Member To Class: ClassName=Sheet2 Member=Component GOUT CON1
+Added Member To Class: ClassName=Sheet2 Member=Component GREAR CON1
+Added Member To Class: ClassName=Sheet2 Member=Component HC4052 MC74HC4052AD
+Added Member To Class: ClassName=Sheet2 Member=Component LD1 Red
+Added Member To Class: ClassName=Sheet2 Member=Component LDO1 L78L05ABUTR
+Added Member To Class: ClassName=Sheet2 Member=Component OUT.AV CON1
+Added Member To Class: ClassName=Sheet2 Member=Component OUTPUT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component P2 Header 6
+Added Member To Class: ClassName=Sheet2 Member=Component P? MHDR1X4
+Added Member To Class: ClassName=Sheet2 Member=Component P? VIDEO
+Added Member To Class: ClassName=Sheet2 Member=Component Q1 SI4435DY
+Added Member To Class: ClassName=Sheet2 Member=Component Q2 MBT2222
+Added Member To Class: ClassName=Sheet2 Member=Component Q3 MBT2222
+Added Member To Class: ClassName=Sheet2 Member=Component R1 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R2 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R3 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R4 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R5 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R6 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R7 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R8 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R9 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R10 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component REAR 12v CON1
+Added Member To Class: ClassName=Sheet2 Member=Component REAR.AV CON1
+Added Member To Class: ClassName=Sheet2 Member=Component REAR RCA
+Added Member To Class: ClassName=Sheet2 Member=Component U1 NE555
+Added Member To Class: ClassName=Sheet2 Member=Component U3 MC74HC4052DT

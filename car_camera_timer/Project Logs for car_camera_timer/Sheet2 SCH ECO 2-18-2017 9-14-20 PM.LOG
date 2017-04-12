@@ -1,0 +1,12 @@
+Remove Pin=P3-1 From Net=BAT12V
+Remove Pin=P3-2 From Net=GND
+Remove Pin=P3-3 From Net=CAMERA+12V
+Remove Pin=P3-4 From Net=FROM_REVERSE
+Change Component Designator: OldDesignator=FR.AV1 NewDesignator=FRONT
+Change Component Designator: OldDesignator=FRONT1 NewDesignator=FRONT
+Change Component Designator: OldDesignator=GFRONT1 NewDesignator=GND
+Change Component Designator: OldDesignator=GOUT1 NewDesignator=GND
+Change Component Designator: OldDesignator=GREAR1 NewDesignator=GND
+Change Component Designator: OldDesignator=OUT.AV1 NewDesignator=OUT
+Change Component Designator: OldDesignator=OUTPUT1 NewDesignator=OUTPUT
+Change Component Designator: OldDesignator=REAR.AV1 NewDesignator=REAR

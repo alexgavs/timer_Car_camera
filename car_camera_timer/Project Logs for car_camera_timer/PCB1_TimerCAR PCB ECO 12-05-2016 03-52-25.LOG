@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BAT12V Pin=Q4-D
+Removed Pin From Net: NetName=12V Pin=Q4-S
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Member From Class: ClassName=Sheet2 Member=Q4
+Removed Member From Class: ClassName=Sheet2 Member=R9
+Added Member To Class: ClassName=Sheet2 Member=Component Q1 SI4435DY

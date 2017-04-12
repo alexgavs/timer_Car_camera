@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: E:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\35x30-blackbox.PcbDoc
+RuleKind=Clearance|RuleName=LOGO|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=POLYGON_GND|Scope=Board|Minimum=11.81
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width_Logo|Scope=Board|Minimum=0.04
+RuleKind=Width|RuleName=Width_Power|Scope=Board|Minimum=11.81
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

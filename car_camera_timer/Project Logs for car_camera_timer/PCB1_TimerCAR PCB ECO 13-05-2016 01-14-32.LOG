@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=FRONT-1
+Removed Pin From Net: NetName=GND Pin=FRONT-2
+Removed Pin From Net: NetName=GND Pin=FRONT-3
+Removed Pin From Net: NetName=V1_Y1 Pin=FRONT-4
+Removed Pin From Net: NetName=GND Pin=OUTPUT-1
+Removed Pin From Net: NetName=GND Pin=OUTPUT-2
+Removed Pin From Net: NetName=GND Pin=OUTPUT-3
+Removed Pin From Net: NetName=VIDEO_OUT1 Pin=OUTPUT-4
+Removed Pin From Net: NetName=GND Pin=REAR-1
+Removed Pin From Net: NetName=GND Pin=REAR-2
+Removed Pin From Net: NetName=GND Pin=REAR-3
+Removed Pin From Net: NetName=V1_Y0 Pin=REAR-4
+Added Component: Designator=FRONT(RCA)
+Added Component: Designator=OUTPUT(RCA)
+Added Component: Designator=REAR(RCA)

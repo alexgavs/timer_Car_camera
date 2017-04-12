@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\seedstudio_PCB_manufactured.PcbDoc
+RuleKind=Width|RuleName=Width_Logos|Scope=Board|Minimum=0.39
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

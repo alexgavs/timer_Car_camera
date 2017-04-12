@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=FGND-1
+Removed Pin From Net: NetName=GND Pin=FRONT.-1
+Removed Pin From Net: NetName=GND Pin=FRONT.-1
+Removed Pin From Net: NetName=FRONT_AV Pin=FRONT.-2
+Removed Pin From Net: NetName=FRONT_AV Pin=FRONT.-3
+Removed Pin From Net: NetName=FRONT_AV Pin=FRONT_-1
+Removed Pin From Net: NetName=GND Pin=OGND-1
+Removed Pin From Net: NetName=VIDEO_OUT1 Pin=OUT_-1
+Removed Pin From Net: NetName=GND Pin=OUTPUT.-1
+Removed Pin From Net: NetName=GND Pin=OUTPUT.-1
+Removed Pin From Net: NetName=VIDEO_OUT1 Pin=OUTPUT.-2
+Removed Pin From Net: NetName=VIDEO_OUT1 Pin=OUTPUT.-3
+Removed Pin From Net: NetName=GND Pin=REAR.-1
+Removed Pin From Net: NetName=GND Pin=REAR.-1
+Removed Pin From Net: NetName=REAR_AV Pin=REAR.-2
+Removed Pin From Net: NetName=REAR_AV Pin=REAR.-3
+Removed Pin From Net: NetName=REAR_AV Pin=REAR_-1
+Removed Pin From Net: NetName=GND Pin=RGND-1
+Removed Member From Class: ClassName=Sheet2 Member=FGND
+Removed Member From Class: ClassName=Sheet2 Member=FRONT.
+Removed Member From Class: ClassName=Sheet2 Member=FRONT_
+Removed Member From Class: ClassName=Sheet2 Member=OGND
+Removed Member From Class: ClassName=Sheet2 Member=OUT_
+Removed Member From Class: ClassName=Sheet2 Member=OUTPUT.
+Removed Member From Class: ClassName=Sheet2 Member=REAR.
+Removed Member From Class: ClassName=Sheet2 Member=REAR_
+Removed Member From Class: ClassName=Sheet2 Member=RGND
+Added Component: Designator=P1(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet2 Member=Component P1 Header 6

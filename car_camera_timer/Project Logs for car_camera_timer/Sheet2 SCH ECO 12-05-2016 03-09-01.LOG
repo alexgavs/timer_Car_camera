@@ -1,0 +1,11 @@
+Remove Pin=U3-3 From Net=VIDEO_OUT2
+Remove Pin=U3-10 From Net=FRONT_SW
+Remove Pin=U3-12 From Net=V1_Y0
+Remove Pin=U3-13 From Net=VIDEO_OUT1
+Remove Pin=U3-14 From Net=V1_Y1
+Change Component Designator: OldDesignator=FRONT1 NewDesignator=FRONT
+Change Component Designator: OldDesignator=FRONT NewDesignator=FRONT
+Change Component Designator: OldDesignator=OUTPUT1 NewDesignator=OUTPUT
+Change Component Designator: OldDesignator=OUTPUT NewDesignator=OUTPUT
+Change Component Designator: OldDesignator=REAR1 NewDesignator=REAR
+Change Component Designator: OldDesignator=REAR NewDesignator=REAR

@@ -1,0 +1,20 @@
+Remove Pin=U3-10 From Net=FRONT_SW
+Remove Pin=U3-12 From Net=V1_Y0
+Remove Pin=U3-13 From Net=VIDEO_OUT1
+Remove Pin=U3-14 From Net=V1_Y1
+Change Component Designator: OldDesignator=3296Y-1-105LF NewDesignator=3296-TRRIMER-1M
+Change Component Designator: OldDesignator=3296-TRRIMER-1M NewDesignator=3296-TRRIMER-1M
+Change Component Designator: OldDesignator=FRONT+ NewDesignator=FR.AV
+Change Component Designator: OldDesignator=FR.AV NewDesignator=FR.AV
+Change Component Designator: OldDesignator=FRONT- NewDesignator=GND
+Change Component Designator: OldDesignator=GND NewDesignator=GND
+Change Component Designator: OldDesignator=OUT1+ NewDesignator=OUT.AV
+Change Component Designator: OldDesignator=OUT.AV NewDesignator=OUT.AV
+Change Component Designator: OldDesignator=OUT- NewDesignator=GND
+Change Component Designator: OldDesignator=GND NewDesignator=GND
+Change Component Designator: OldDesignator=REAR+ NewDesignator=REAR.AV
+Change Component Designator: OldDesignator=REAR.AV NewDesignator=REAR.AV
+Change Component Designator: OldDesignator=REAR- NewDesignator=GND
+Change Component Designator: OldDesignator=GND NewDesignator=GND
+Change Pin Designator/Name:  Old Designator=R1-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R1-2 Old Name=2 New Designator =1 New Name=1

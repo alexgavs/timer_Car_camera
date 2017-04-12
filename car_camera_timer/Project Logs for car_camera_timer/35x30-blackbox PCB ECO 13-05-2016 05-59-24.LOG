@@ -1,0 +1,45 @@
+Change Component Designator: OldDesignator=R7 NewDesignator=R10
+Added Component: Designator=FRONT 12V(J_1)
+Added Component: Designator=FRONT(RCA)
+Added Component: Designator=LD1(LED_AVAGO_HSMC-C110)
+Added Component: Designator=OUTPUT(RCA)
+Added Component: Designator=R7(RES_0805)
+Added Component: Designator=REAR 12v(J_1)
+Added Component: Designator=REAR(RCA)
+Added Component: Designator=U3(948F-01_N)
+Added Pin To Net: NetName=CAMERA+12V Pin=FRONT 12V-1
+Added Pin To Net: NetName=GND Pin=FRONT-1
+Added Pin To Net: NetName=GND Pin=FRONT-1
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT-2
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT-3
+Added Pin To Net: NetName=CAMERA+12V Pin=LD1-2
+Added Pin To Net: NetName=GND Pin=OUTPUT-1
+Added Pin To Net: NetName=GND Pin=OUTPUT-1
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT-2
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT-3
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=FROM_REVERSE Pin=REAR 12v-1
+Added Pin To Net: NetName=GND Pin=REAR-1
+Added Pin To Net: NetName=GND Pin=REAR-1
+Added Pin To Net: NetName=V1_Y0 Pin=REAR-2
+Added Pin To Net: NetName=V1_Y0 Pin=REAR-3
+Added Pin To Net: NetName=GND Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=FRONT_SW Pin=U3-10
+Added Pin To Net: NetName=V1_Y0 Pin=U3-12
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=U3-13
+Added Pin To Net: NetName=V1_Y1 Pin=U3-14
+Added Pin To Net: NetName=VCC Pin=U3-16
+Added Pin To Net: NetName=NetLD1_1 Pin=LD1-1
+Added Pin To Net: NetName=NetLD1_1 Pin=R7-2
+Added Net: Name=NetLD1_1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT 12V CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component LD1 Red
+Added Member To Class: ClassName=Sheet2 Member=Component OUTPUT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component R10 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component REAR 12v CON1
+Added Member To Class: ClassName=Sheet2 Member=Component REAR RCA
+Added Member To Class: ClassName=Sheet2 Member=Component U3 MC74HC4052DT

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=12V Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=VCC Pin=U2-3
+Removed Member From Class: ClassName=Sheet2 Member=U2

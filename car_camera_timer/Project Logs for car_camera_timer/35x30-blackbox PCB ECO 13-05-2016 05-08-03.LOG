@@ -1,0 +1,20 @@
+Added Component: Designator=J1(J_1)
+Added Component: Designator=J2(J_1)
+Added Component: Designator=J3(J_1)
+Added Component: Designator=U3(948F-01_N)
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=J1-1
+Added Pin To Net: NetName=V1_Y0 Pin=J2-1
+Added Pin To Net: NetName=V1_Y1 Pin=J3-1
+Added Pin To Net: NetName=GND Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=FRONT_SW Pin=U3-10
+Added Pin To Net: NetName=V1_Y0 Pin=U3-12
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=U3-13
+Added Pin To Net: NetName=V1_Y1 Pin=U3-14
+Added Pin To Net: NetName=VCC Pin=U3-16
+Added Member To Class: ClassName=Sheet2 Member=Component J1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component J2 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component J3 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component U3 MC74HC4052DT

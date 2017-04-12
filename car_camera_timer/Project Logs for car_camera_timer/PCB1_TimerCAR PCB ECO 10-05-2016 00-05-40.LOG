@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=12V Pin=P2-1
+Removed Pin From Net: NetName=GND Pin=U3-0
+Added Component: Designator=Q4(SOT23-GDS)
+Added Pin To Net: NetName=12V Pin=Q4-S
+Added Pin To Net: NetName=BAT12V Pin=P2-1
+Added Pin To Net: NetName=BAT12V Pin=Q4-D
+Added Net: Name=BAT12V
+Added Pin To Net: NetName=NetQ4_G Pin=Q4-G
+Added Net: Name=NetQ4_G
+Added Member To Class: ClassName=Sheet2 Member=Component Q4 IRLML6402

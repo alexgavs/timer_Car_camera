@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [car_camera_timer.PrjPcb]
+   Generated File[35x30-blackbox.TXT]
+   Generated File[35x30-blackbox.LDP]
+   Generated File[35x30-blackbox.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:13:30 PM On 2/25/2017

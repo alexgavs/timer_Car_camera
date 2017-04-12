@@ -1,0 +1,4 @@
+Added Component: Designator=C23(EL SMD Case D D6.3x6.6 h7.7(0605))
+Added Pin To Net: NetName=Net3296-TRRIMER-1M_2 Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Member To Class: ClassName=Sheet2 Member=Component C23 100u

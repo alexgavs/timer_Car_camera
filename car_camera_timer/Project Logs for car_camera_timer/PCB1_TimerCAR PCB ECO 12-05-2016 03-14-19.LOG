@@ -1,0 +1,16 @@
+Added Component: Designator=U2(751B-05_N)
+Added Pin To Net: NetName=VIDEO_OUT2 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U2-9
+Added Pin To Net: NetName=FRONT_SW Pin=U2-10
+Added Pin To Net: NetName=V1_Y0 Pin=U2-12
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=U2-13
+Added Pin To Net: NetName=V1_Y1 Pin=U2-14
+Added Pin To Net: NetName=VCC Pin=U2-16
+Added Pin To Net: NetName=V2_Y0 Pin=U2-1
+Added Net: Name=V2_Y0
+Added Pin To Net: NetName=V2_Y1 Pin=U2-5
+Added Net: Name=V2_Y1
+Added Member To Class: ClassName=Sheet2 Member=Component U2 MC74HC4052AD

@@ -1,0 +1,16 @@
+Change Physical Footprint: Designator=3296-TRRIMER-1M Old Footprint=TRIM_BOURNS_3296Y New Footprint=TRIM_BOURNS_3296Y
+Change Physical Footprint: Designator=C2 Old Footprint=CAP_0805 New Footprint=CAP_0805
+Change Physical Footprint: Designator=C4 Old Footprint=CAP_0805 New Footprint=CAP_0805
+Change Physical Footprint: Designator=FRONT Old Footprint=RCA New Footprint=RCA
+Change Physical Footprint: Designator=LDO1 Old Footprint=SOT-89_N New Footprint=SOT-89_N
+Change Physical Footprint: Designator=OUTPUT Old Footprint=RCA New Footprint=RCA
+Change Physical Footprint: Designator=P2 Old Footprint=HDR1X6 New Footprint=HDR1X6
+Change Physical Footprint: Designator=Q2 Old Footprint=SOT23-3 New Footprint=SOT23-3
+Change Physical Footprint: Designator=Q3 Old Footprint=SOT23-3 New Footprint=SOT23-3
+Change Physical Footprint: Designator=R3 Old Footprint=RES_0805 New Footprint=RES_0805
+Change Physical Footprint: Designator=R4 Old Footprint=RES_0805 New Footprint=RES_0805
+Change Physical Footprint: Designator=R5 Old Footprint=RES_0805 New Footprint=RES_0805
+Change Physical Footprint: Designator=R6 Old Footprint=RES_0805 New Footprint=RES_0805
+Change Physical Footprint: Designator=R7 Old Footprint=RES_0805 New Footprint=RES_0805
+Change Physical Footprint: Designator=R8 Old Footprint=RES_0805 New Footprint=RES_0805
+Change Physical Footprint: Designator=REAR Old Footprint=RCA New Footprint=RCA

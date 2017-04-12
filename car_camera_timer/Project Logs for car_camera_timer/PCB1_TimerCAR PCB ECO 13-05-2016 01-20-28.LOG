@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=GND Pin=FRONT-1
+Added Pin To Net: NetName=GND Pin=FRONT-1
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT-2
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT-3
+Added Pin To Net: NetName=GND Pin=OUTPUT-1
+Added Pin To Net: NetName=GND Pin=OUTPUT-1
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT-2
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT-3
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component OUTPUT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component REAR RCA

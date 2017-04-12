@@ -1,0 +1,5 @@
+Added Component: Designator=U4(LP3)
+Added Pin To Net: NetName=12V Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=VCC Pin=U4-3
+Added Member To Class: ClassName=Sheet2 Member=Component U4 UA78L05AILP

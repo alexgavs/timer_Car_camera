@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=GND NewDesignator=FGND
+Change Component Designator: OldDesignator=GND NewDesignator=OGND
+Change Component Designator: OldDesignator=GND NewDesignator=RGND

@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C2 Old Footprint=CAP_TAN_A1206 New Footprint=CAP_0805
+Added Component: Designator=R4TR(RES_0805)
+Added Pin To Net: NetName=Net3296-TRRIMER-1M_1 Pin=R4TR-1
+Added Pin To Net: NetName=12V Pin=R4TR-2
+Added Member To Class: ClassName=Sheet2 Member=Component R4TR Res_0805

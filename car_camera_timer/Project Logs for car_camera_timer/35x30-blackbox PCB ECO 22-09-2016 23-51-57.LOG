@@ -1,0 +1,12 @@
+Added Component: Designator=ldo1-2(TO220)
+Added Component: Designator=U3(948F-01_N)
+Added Pin To Net: NetName=12V Pin=ldo1-2-1
+Added Pin To Net: NetName=VCC Pin=ldo1-2-3
+Added Pin To Net: NetName=GND Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=FRONT_SW Pin=U3-10
+Added Pin To Net: NetName=VCC Pin=U3-16
+Added Member To Class: ClassName=Sheet2 Member=Component ldo1-2 L7805ACV
+Added Member To Class: ClassName=Sheet2 Member=Component U3 MC74HC4052DT

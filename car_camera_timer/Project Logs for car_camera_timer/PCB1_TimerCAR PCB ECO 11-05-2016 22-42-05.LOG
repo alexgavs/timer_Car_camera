@@ -1,0 +1,148 @@
+Added Component: Designator=C2(CAP_0805)
+Added Component: Designator=C3(CAP_0805)
+Added Component: Designator=C4(CAP_0805)
+Added Component: Designator=C?(CAP_TAN_B1210)
+Added Component: Designator=R1(RES_0805)
+Added Component: Designator=R2(RES_0805)
+Added Component: Designator=R3(RES_0805)
+Added Component: Designator=R4(RES_0805)
+Added Component: Designator=R5(RES_0805)
+Added Component: Designator=R6(RES_0805)
+Added Component: Designator=R6(RES_0805)
+Added Component: Designator=R7(RES_0805)
+Added Component: Designator=R8(RES_0805)
+Added Component: Designator=U2(751B-05_N)
+Added Pin To Net: NetName=12V Pin=C6-1
+Added Pin To Net: NetName=12V Pin=LDO1-3
+Added Pin To Net: NetName=12V Pin=P1-1
+Added Pin To Net: NetName=12V Pin=Q4-S
+Added Pin To Net: NetName=12V Pin=R1-2
+Added Pin To Net: NetName=12V Pin=R2-2
+Added Pin To Net: NetName=12V Pin=U1-4
+Added Pin To Net: NetName=12V Pin=U1-8
+Added Net: Name=12V
+Added Pin To Net: NetName=BAT12V Pin=P2-1
+Added Pin To Net: NetName=BAT12V Pin=Q4-D
+Added Net: Name=BAT12V
+Added Pin To Net: NetName=CAMERA+12V Pin=P2-3
+Added Pin To Net: NetName=CAMERA+12V Pin=Q5-D
+Added Net: Name=CAMERA+12V
+Added Pin To Net: NetName=FROM_REVERSE Pin=P2-4
+Added Pin To Net: NetName=FROM_REVERSE Pin=R7-1
+Added Net: Name=FROM_REVERSE
+Added Pin To Net: NetName=FRONT_SW Pin=P2-6
+Added Pin To Net: NetName=FRONT_SW Pin=Q2-3
+Added Pin To Net: NetName=FRONT_SW Pin=R3-2
+Added Pin To Net: NetName=FRONT_SW Pin=R4-1
+Added Pin To Net: NetName=FRONT_SW Pin=U2-10
+Added Pin To Net: NetName=FRONT_SW Pin=U3-10
+Added Net: Name=FRONT_SW
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=FRONT1-1
+Added Pin To Net: NetName=GND Pin=FRONT1-2
+Added Pin To Net: NetName=GND Pin=FRONT1-3
+Added Pin To Net: NetName=GND Pin=LDO1-2
+Added Pin To Net: NetName=GND Pin=LDO1-2
+Added Pin To Net: NetName=GND Pin=OUTPUT1-1
+Added Pin To Net: NetName=GND Pin=OUTPUT1-2
+Added Pin To Net: NetName=GND Pin=OUTPUT1-3
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=GND Pin=P2-5
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=GND Pin=REAR1-1
+Added Pin To Net: NetName=GND Pin=REAR1-2
+Added Pin To Net: NetName=GND Pin=REAR1-3
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U2-9
+Added Pin To Net: NetName=GND Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U1-5
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=P1-2
+Added Pin To Net: NetName=NetC?_2 Pin=P1-3
+Added Pin To Net: NetName=NetC?_2 Pin=U1-6
+Added Pin To Net: NetName=NetC?_2 Pin=U1-7
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R7-2
+Added Pin To Net: NetName=NetQ2_1 Pin=R8-1
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R5-1
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ3_3 Pin=R6-1
+Added Net: Name=NetQ3_3
+Added Pin To Net: NetName=NetQ4_G Pin=Q4-G
+Added Pin To Net: NetName=NetQ4_G Pin=R6-2
+Added Net: Name=NetQ4_G
+Added Pin To Net: NetName=NetQ5_G Pin=Q5-G
+Added Pin To Net: NetName=NetQ5_G Pin=R1-1
+Added Pin To Net: NetName=NetQ5_G Pin=R6-2
+Added Net: Name=NetQ5_G
+Added Pin To Net: NetName=NetQ5_S Pin=Q5-S
+Added Pin To Net: NetName=NetQ5_S Pin=R2-1
+Added Net: Name=NetQ5_S
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U1-2
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U1-3
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=V1_Y0 Pin=REAR1-4
+Added Pin To Net: NetName=V1_Y0 Pin=U2-12
+Added Pin To Net: NetName=V1_Y0 Pin=U3-12
+Added Net: Name=V1_Y0
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT1-4
+Added Pin To Net: NetName=V1_Y1 Pin=U2-14
+Added Pin To Net: NetName=V1_Y1 Pin=U3-14
+Added Net: Name=V1_Y1
+Added Pin To Net: NetName=V2_Y0 Pin=U2-1
+Added Net: Name=V2_Y0
+Added Pin To Net: NetName=V2_Y1 Pin=U2-5
+Added Net: Name=V2_Y1
+Added Pin To Net: NetName=VCC Pin=C2-2
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=C5-2
+Added Pin To Net: NetName=VCC Pin=LDO1-1
+Added Pin To Net: NetName=VCC Pin=R3-1
+Added Pin To Net: NetName=VCC Pin=U2-16
+Added Pin To Net: NetName=VCC Pin=U3-16
+Added Net: Name=VCC
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT1-4
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=U2-13
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=U3-13
+Added Net: Name=VIDEO_OUT1
+Added Pin To Net: NetName=VIDEO_OUT2 Pin=U2-3
+Added Pin To Net: NetName=VIDEO_OUT2 Pin=U3-3
+Added Net: Name=VIDEO_OUT2
+Added Member To Class: ClassName=Sheet2 Member=Component C2 Cap_0805
+Added Member To Class: ClassName=Sheet2 Member=Component C3 Cap_0805
+Added Member To Class: ClassName=Sheet2 Member=Component C4 Cap_0805
+Added Member To Class: ClassName=Sheet2 Member=Component C? Cap_Tan_1210
+Added Member To Class: ClassName=Sheet2 Member=Component R1 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R2 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R3 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R4 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R5 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R6 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R6 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R7 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component R8 Res_0805
+Added Member To Class: ClassName=Sheet2 Member=Component U2 MC74HC4052AD

@@ -1,0 +1,632 @@
+Added Component: Designator=1(TRIM_BOURNS_3296Y)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = "3296Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "11.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "20/10/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\TRIM_BOURNS_3296Y.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "28/11/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "BOURNS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "3296Y-1-105LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "25 Turn Trimming Potentiometer (Top Adjustement)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TRIM_25T_1M_BOURNS_3296Y-1-105LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "TME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 5"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 6"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 7"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 8"; Value = "Allied"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 9"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "3296W-105LF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "3296Y-1-105LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "652-3296Y-1-105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "ggKPwAKS2sB7yfOEZhzQbC3wJOBqSkwgVY0iHxrkrLU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 5"; Value = "3296Y-105LF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 6"; Value = "1141425"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 7"; Value = "652-3296Y-1-105LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 8"; Value = "70154400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 9"; Value = "9353542"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Table"; Value = "Potentiometers THD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TC"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Added Component: Designator=AMS1(SOT223-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(CAPPR350-850X800)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JMW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = "LS3.5 D8.5 x H8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "17/11/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\CAER_RUBYCON_25ML100M8X7.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "08/05/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "RUBYCON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "25ML100M8X7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "Aluminum Electrolytic Capacitor, (ML Series)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CAER_100UF_25V_20%_RUBYCON_25ML100M8X7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Status"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Table"; Value = "Capacitors THD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPC2220(5750)230_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "2220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "5750"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "2.2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "445-3486-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "-20% to +80%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(AVX-CAPC3528_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.avx.com/docs/Catalogs/taj.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SMT Capacitor, 3.5 x 2.8 mm Body"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPC3528"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TAJB106K020R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Polarized"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "197427"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "Tantalum"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Added Component: Designator=D5(DO214AA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = "www.datasheetcatalog.org/datasheet/jgd/GS1D.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "GS1M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = "DO214AA (SMA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = "Temys"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Примечание"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "лента"; VariantName = "[No Variations]"
+Added Component: Designator=FR.AV1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=FRONT 1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=FRONT1(RCA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GFRONT1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=GOUT1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=GREAR1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=HC1(751B-05_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/site/products/parametrics/0,4446,47,00.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub/Collateral/MC74HC4051A-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "13-Apr-2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Small Outline Integrated Circuit 1.27 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "751B-05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "May-1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1201328"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-16"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AC"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/site/products/parametrics/0,4446,47,00.html"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub/Collateral/MC74HC4051A-D.PDF"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-2000"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "13-Apr-2006"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Small Outline Integrated Circuit 1.27 mm Pitch"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "PackageReference"; Value = "751B-05"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "PackageVersion"; Value = "May-1997"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "hc4052-tsop"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1201328"; VariantName = "hc4052-tsop"
+Added Component: Designator=LD1(LED_AVAGO_HSMC-C110)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JMW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Design Guide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\LED_AVAGO_HSMC-C110_DESIGN-GUIDE.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "30/07/2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\LED_AVAGO_HSMC-C110.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "20/06/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVAGO TECHNOLOGIES"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "HSMC-C110"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Red Chip LED, 2-Leads, Body 3.3x1.6mm, Side Emitting Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "High Performance Right Angle Chip Red LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LED_AVAGO_HSMC-C110"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "630-HSMC-C110"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Table"; Value = "LEDs & Displays"; VariantName = "[No Variations]"
+Added Component: Designator=LDO2(SOT-89_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000446.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Feb-2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT-89 Package 1.5 mm Pitch, 4.1 mm Lead Span"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-89"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "L78L05ABUTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "31Y2531"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "box35x30"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "box35x30"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "box35x30"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000446.pdf"; VariantName = "box35x30"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Feb-2011"; VariantName = "box35x30"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT-89 Package 1.5 mm Pitch, 4.1 mm Lead Span"; VariantName = "box35x30"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-89"; VariantName = "box35x30"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = "L78L05ABUTR"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "31Y2531"; VariantName = "box35x30"
+Added Component: Designator=OUT.AV1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=OUTPUT1(RCA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "box35x30"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "box35x30"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "box35x30"
+Added Component: Designator=P2(MHDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "box35x30"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "box35x30"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "box35x30"
+Added Component: Designator=P3(MHDR1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "box35x30"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "box35x30"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "box35x30"
+Added Component: Designator=Q1(SO-8_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.vishay.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.vishay.com/docs/70149/70149.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "6-Oct-1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "13-Apr-2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Small Outline Integrated Circuit 1.27 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SO-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Aug-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "942-SI4435DYPBF"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(SOT23-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MMBT2222A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "MMBT2222A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Si"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOT-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "40V; 600mA; 250mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SCDType"; Value = "source"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "MMBT2222AFSTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "568-4509-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "MBT2222"; VariantName = "[No Variations]"
+Added Component: Designator=Q3(SOT23-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MMBT2222A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "MMBT2222A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Si"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOT-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "40V; 600mA; 250mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SCDType"; Value = "source"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "MMBT2222AFSTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "568-4509-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "MBT2222"; VariantName = "[No Variations]"
+Added Component: Designator=REAR 1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=REAR1(RCA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=REAR.AV1(J_1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DataSheet"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Mfg"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Precision"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "SMD_DIP"; Value = "SMD_DIP"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Поставщик"; Value = ""; VariantName = "box35x30"
+Add component (AddParameter): Name = "Упаковка"; Value = "туб лента поддон"; VariantName = "box35x30"
+Added Component: Designator=U1(SO8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Count"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "500kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NE555DT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "8-SOIC (3.9mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape & Reel (TR)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "497-1962-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "497-1962-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "555 Type, Timer/Oscillator (Single)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "4.5 V ~ 16 V"; VariantName = "[No Variations]"
+Added Component: Designator=U4(948F-01_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub/Collateral/MC74HC4051-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1995"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "12-Dec-2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Thin Small Outline Package 0.65 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "948F-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Feb-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "15-Apr-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Allied"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "70466412"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub/Collateral/MC74HC4051-D.PDF"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1995"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "12-Dec-2006"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Thin Small Outline Package 0.65 mm Pitch"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "PackageReference"; Value = "948F-01"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Feb-2000"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "Published"; Value = "15-Apr-2002"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Allied"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "70466412"; VariantName = "hc4052-anak"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "SLIM"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "SLIM"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "SLIM"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub/Collateral/MC74HC4051-D.PDF"; VariantName = "SLIM"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1995"; VariantName = "SLIM"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "12-Dec-2006"; VariantName = "SLIM"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "SLIM"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Thin Small Outline Package 0.65 mm Pitch"; VariantName = "SLIM"
+Add component (AddParameter): Name = "PackageReference"; Value = "948F-01"; VariantName = "SLIM"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Feb-2000"; VariantName = "SLIM"
+Add component (AddParameter): Name = "Published"; Value = "15-Apr-2002"; VariantName = "SLIM"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "SLIM"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Allied"; VariantName = "SLIM"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "70466412"; VariantName = "SLIM"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "box35x30"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "box35x30"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "box35x30"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub/Collateral/MC74HC4051-D.PDF"; VariantName = "box35x30"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1995"; VariantName = "box35x30"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "12-Dec-2006"; VariantName = "box35x30"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "box35x30"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Thin Small Outline Package 0.65 mm Pitch"; VariantName = "box35x30"
+Add component (AddParameter): Name = "PackageReference"; Value = "948F-01"; VariantName = "box35x30"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Feb-2000"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Published"; Value = "15-Apr-2002"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Allied"; VariantName = "box35x30"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "70466412"; VariantName = "box35x30"
+Added Pin To Net: NetName=12V Pin=AMS1-2
+Added Pin To Net: NetName=12V Pin=C5-1
+Added Pin To Net: NetName=12V Pin=LDO2-3
+Added Pin To Net: NetName=12V Pin=U1-8
+Added Net: Name=12V
+Added Pin To Net: NetName=BAT12V Pin=P1-1
+Added Pin To Net: NetName=BAT12V Pin=P3-1
+Added Net: Name=BAT12V
+Added Pin To Net: NetName=CAMERA+12V Pin=D5-2
+Added Pin To Net: NetName=CAMERA+12V Pin=FRONT 1-1
+Added Pin To Net: NetName=CAMERA+12V Pin=LD1-2
+Added Pin To Net: NetName=CAMERA+12V Pin=P1-3
+Added Pin To Net: NetName=CAMERA+12V Pin=P3-3
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-5
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-6
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-7
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-8
+Added Net: Name=CAMERA+12V
+Added Pin To Net: NetName=FROM_REVERSE Pin=D5-1
+Added Pin To Net: NetName=FROM_REVERSE Pin=P1-4
+Added Pin To Net: NetName=FROM_REVERSE Pin=P3-4
+Added Pin To Net: NetName=FROM_REVERSE Pin=REAR 1-1
+Added Net: Name=FROM_REVERSE
+Added Pin To Net: NetName=FRONT_AV Pin=FR.AV1-1
+Added Pin To Net: NetName=FRONT_AV Pin=FRONT1-2
+Added Pin To Net: NetName=FRONT_AV Pin=FRONT1-3
+Added Pin To Net: NetName=FRONT_AV Pin=HC1-14
+Added Pin To Net: NetName=FRONT_AV Pin=P2-5
+Added Net: Name=FRONT_AV
+Added Pin To Net: NetName=FRONT_SW Pin=P1-6
+Added Pin To Net: NetName=FRONT_SW Pin=Q2-3
+Added Pin To Net: NetName=FRONT_SW Pin=U1-4
+Added Pin To Net: NetName=FRONT_SW Pin=U4-10
+Added Net: Name=FRONT_SW
+Added Pin To Net: NetName=GND Pin=AMS1-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=FRONT1-1
+Added Pin To Net: NetName=GND Pin=FRONT1-1
+Added Pin To Net: NetName=GND Pin=GFRONT1-1
+Added Pin To Net: NetName=GND Pin=GOUT1-1
+Added Pin To Net: NetName=GND Pin=GREAR1-1
+Added Pin To Net: NetName=GND Pin=HC1-6
+Added Pin To Net: NetName=GND Pin=HC1-7
+Added Pin To Net: NetName=GND Pin=HC1-8
+Added Pin To Net: NetName=GND Pin=HC1-9
+Added Pin To Net: NetName=GND Pin=LDO2-2
+Added Pin To Net: NetName=GND Pin=LDO2-2
+Added Pin To Net: NetName=GND Pin=OUTPUT1-1
+Added Pin To Net: NetName=GND Pin=OUTPUT1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=GND Pin=P2-6
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=GND Pin=REAR1-1
+Added Pin To Net: NetName=GND Pin=REAR1-1
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U4-6
+Added Pin To Net: NetName=GND Pin=U4-7
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Net: Name=GND
+Added Pin To Net: NetName=Net1_1 Pin=1-1
+Added Net: Name=Net1_1
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=1-3
+Added Pin To Net: NetName=Net1_2 Pin=C2-1
+Added Pin To Net: NetName=Net1_2 Pin=U1-6
+Added Pin To Net: NetName=Net1_2 Pin=U1-7
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=NetC3_2 Pin=U1-5
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetHC1_10 Pin=HC1-10
+Added Net: Name=NetHC1_10
+Added Pin To Net: NetName=NetLD1_1 Pin=LD1-1
+Added Net: Name=NetLD1_1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-3
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ1_4 Pin=Q1-4
+Added Net: Name=NetQ1_4
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Net: Name=NetQ3_3
+Added Pin To Net: NetName=NetR6_2 Pin=U1-3
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR10_2 Pin=U1-2
+Added Net: Name=NetR10_2
+Added Pin To Net: NetName=REAR_AV Pin=HC1-12
+Added Pin To Net: NetName=REAR_AV Pin=P2-3
+Added Pin To Net: NetName=REAR_AV Pin=REAR1-2
+Added Pin To Net: NetName=REAR_AV Pin=REAR1-3
+Added Pin To Net: NetName=REAR_AV Pin=REAR.AV1-1
+Added Net: Name=REAR_AV
+Added Pin To Net: NetName=V2_Y0 Pin=HC1-1
+Added Net: Name=V2_Y0
+Added Pin To Net: NetName=V2_Y1 Pin=HC1-5
+Added Net: Name=V2_Y1
+Added Pin To Net: NetName=VCC Pin=AMS1-3
+Added Pin To Net: NetName=VCC Pin=C4-2
+Added Pin To Net: NetName=VCC Pin=HC1-16
+Added Pin To Net: NetName=VCC Pin=LDO2-1
+Added Pin To Net: NetName=VCC Pin=U4-16
+Added Net: Name=VCC
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=HC1-13
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUT.AV1-1
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT1-2
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT1-3
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=P2-1
+Added Net: Name=VIDEO_OUT1
+Added Member To Class: ClassName=Sheet2 Member=Component 1 1M
+Added Member To Class: ClassName=Sheet2 Member=Component AMS1 AMS1117
+Added Member To Class: ClassName=Sheet2 Member=Component C2 100uF
+Added Member To Class: ClassName=Sheet2 Member=Component C4 CAP 47uF 25V 2220(5750)
+Added Member To Class: ClassName=Sheet2 Member=Component C5 TAJB106K020R
+Added Member To Class: ClassName=Sheet2 Member=Component D5 GS1M
+Added Member To Class: ClassName=Sheet2 Member=Component FR.AV1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT 1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT1 RCA
+Added Member To Class: ClassName=Sheet2 Member=Component GFRONT1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component GOUT1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component GREAR1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component HC1 MC74HC4052AD
+Added Member To Class: ClassName=Sheet2 Member=Component LD1 Red
+Added Member To Class: ClassName=Sheet2 Member=Component LDO2 L78L05ABUTR
+Added Member To Class: ClassName=Sheet2 Member=Component OUT.AV1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component OUTPUT1 RCA
+Added Member To Class: ClassName=Sheet2 Member=Component P1 Header 6
+Added Member To Class: ClassName=Sheet2 Member=Component P2 VIDEO
+Added Member To Class: ClassName=Sheet2 Member=Component P3 MHDR1X4
+Added Member To Class: ClassName=Sheet2 Member=Component Q1 SI4435DY
+Added Member To Class: ClassName=Sheet2 Member=Component Q2 MBT2222
+Added Member To Class: ClassName=Sheet2 Member=Component Q3 MBT2222
+Added Member To Class: ClassName=Sheet2 Member=Component REAR 1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component REAR1 RCA
+Added Member To Class: ClassName=Sheet2 Member=Component REAR.AV1 CON1
+Added Member To Class: ClassName=Sheet2 Member=Component U1 NE555
+Added Member To Class: ClassName=Sheet2 Member=Component U4 MC74HC4052DT

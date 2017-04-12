@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Net3296-TRRIMER-1M_2 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=12V Pin=ldo1-2-1
+Removed Pin From Net: NetName=GND Pin=ldo1-2-2
+Removed Pin From Net: NetName=VCC Pin=ldo1-2-3
+Removed Member From Class: ClassName=Sheet2 Member=C1
+Removed Member From Class: ClassName=Sheet2 Member=ldo1-2
+Added Component: Designator=C22(CAPPR350-850X800)
+Added Pin To Net: NetName=Net3296-TRRIMER-1M_2 Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Member To Class: ClassName=Sheet2 Member=Component C22 100uF

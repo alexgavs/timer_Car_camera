@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=FRONT NewDesignator=FRONT.
+Change Component Designator: OldDesignator=FRONT NewDesignator=FRONT_
+Change Component Designator: OldDesignator=OUT NewDesignator=OUT_
+Change Component Designator: OldDesignator=OUTPUT NewDesignator=OUTPUT.
+Change Component Designator: OldDesignator=REAR1 NewDesignator=REAR.
+Change Component Designator: OldDesignator=REAR NewDesignator=REAR_

@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: 35x30-blackbox.PcbDoc   2/25/2017  3:12:05 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : 35x30-blackbox.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             97        PTH        17.53inch (445.20mm)
+T2      32mil (0.8mm)                                             Round             9         PTH        1.72inch (43.72mm)
+T3      51mil (1.3mm)                                             Round             9         PTH        2.47inch (62.80mm)
+T4      55mil (1.4mm)                                             Round             4         PTH        0.60inch (15.24mm)
+T5      63mil (1.6mm)                                             Round             9         PTH        1.31inch (33.40mm)
+T6      71mil (1.801mm)         +/-4mil (0.1mm)                   Round             1         PTH        0.00inch (0.00mm)
+T7      71mil (1.801mm)                                           Round             5         PTH        1.60inch (40.60mm)
+T8      79mil (1.999mm)                                           Round             6         PTH        5.51inch (139.88mm)
+T9      98mil (2.499mm)                                           Round             2         PTH        0.59inch (15.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              142
+
+Total Processing Time (hh:mm:ss) : 00:00:00

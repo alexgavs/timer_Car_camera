@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=CAMERA+12V Pin=Q1-D
+Removed Pin From Net: NetName=NetQ1_G Pin=Q1-G
+Removed Pin From Net: NetName=NetQ1_S Pin=Q1-S
+Added Component: Designator=Q1(SO-8_N)
+Added Pin To Net: NetName=NetQ1_S Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_S Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_S Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_G Pin=Q1-4
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-5
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-6
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-7
+Added Pin To Net: NetName=CAMERA+12V Pin=Q1-8
+Change Net Name : Old Net Name=NetC1_2 New Net Name=Net3296-TRRIMER-1M_2
+Change Net Name : Old Net Name=NetQ1_G New Net Name=NetQ1_4
+Change Net Name : Old Net Name=NetQ1_S New Net Name=NetQ1_1

@@ -1,0 +1,274 @@
+Protel Design System Design Rule Check
+PCB File : E:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\35x30-blackbox.PcbDoc
+Date     : 2/25/2017
+Time     : 12:28:53 PM
+
+Processing Rule : Clearance Constraint (Gap=0.152mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InUnion(1048600) or InUnion(1048601)),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) ((InNamedPolygon('TopLayer-gnd') OR InNamedPolygon('Bottom Layer-gnd'))),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad RCA_3-0(1.25mm,-39.25mm) on Multi-Layer And Pad Free-0(1.25mm,-40mm) on Multi-Layer Location : [X = 8.565mm][Y = 74.268mm]
+   Violation between Short-Circuit Constraint: Between Pad RCA_3-0(1.25mm,-39.25mm) on Multi-Layer And Pad Free-0(1.275mm,-38.5mm) on Multi-Layer Location : [X = 8.576mm][Y = 74.968mm]
+   Violation between Short-Circuit Constraint: Between Pad RCA_3-0(39.25mm,-39.25mm) on Multi-Layer And Pad Free-0(39.275mm,-40.025mm) on Multi-Layer Location : [X = 46.578mm][Y = 74.231mm]
+   Violation between Short-Circuit Constraint: Between Pad RCA_3-0(39.25mm,-39.25mm) on Multi-Layer And Pad Free-0(39.25mm,-38.45mm) on Multi-Layer Location : [X = 46.565mm][Y = 75.018mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.277mm)(19.333mm,-25.277mm) on Bottom Layer Location : [X = 19.016mm][Y = 88.587mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.15mm)(19.333mm,-25.15mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.125mm)(19.333mm,-25.125mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.1mm)(19.333mm,-25.1mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.074mm)(19.333mm,-25.074mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.049mm)(19.333mm,-25.049mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-25.023mm)(19.333mm,-25.023mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.998mm)(19.333mm,-24.998mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.973mm)(13.237mm,-24.973mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (17.834mm,-24.973mm)(19.333mm,-24.973mm) on Bottom Layer Location : [X = 26.66mm][Y = 88.896mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.947mm)(13.008mm,-24.947mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.012mm,-24.947mm)(19.333mm,-24.947mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.922mm)(12.932mm,-24.922mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.088mm,-24.922mm)(19.333mm,-24.922mm) on Bottom Layer Location : [X = 26.66mm][Y = 88.944mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.896mm)(12.856mm,-24.896mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.165mm,-24.896mm)(19.333mm,-24.896mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.871mm)(12.78mm,-24.871mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.215mm,-24.871mm)(19.333mm,-24.871mm) on Bottom Layer Location : [X = 26.66mm][Y = 88.992mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.846mm)(12.729mm,-24.846mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.266mm,-24.846mm)(19.333mm,-24.846mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.82mm)(12.704mm,-24.82mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.317mm,-24.82mm)(19.333mm,-24.82mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.043mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.795mm)(12.653mm,-24.795mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.368mm,-24.795mm)(19.333mm,-24.795mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.069mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.769mm)(12.627mm,-24.769mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.393mm,-24.769mm)(19.333mm,-24.769mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.744mm)(12.602mm,-24.744mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.444mm,-24.744mm)(19.333mm,-24.744mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.719mm)(12.577mm,-24.719mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.469mm,-24.719mm)(19.333mm,-24.719mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.145mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.693mm)(12.551mm,-24.693mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.495mm,-24.693mm)(19.333mm,-24.693mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.668mm)(12.526mm,-24.668mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.52mm,-24.668mm)(19.333mm,-24.668mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.642mm)(12.5mm,-24.642mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.546mm,-24.642mm)(19.333mm,-24.642mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.617mm)(12.5mm,-24.617mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.571mm,-24.617mm)(19.333mm,-24.617mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.592mm)(12.475mm,-24.592mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.596mm,-24.592mm)(19.333mm,-24.592mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.566mm)(12.475mm,-24.566mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.622mm,-24.566mm)(19.333mm,-24.566mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.541mm)(12.45mm,-24.541mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.647mm,-24.541mm)(19.333mm,-24.541mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.515mm)(12.45mm,-24.515mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.647mm,-24.515mm)(19.333mm,-24.515mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.49mm)(12.45mm,-24.49mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.673mm,-24.49mm)(19.333mm,-24.49mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.465mm)(12.424mm,-24.465mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.698mm,-24.465mm)(19.333mm,-24.465mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.439mm)(12.424mm,-24.439mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.698mm,-24.439mm)(19.333mm,-24.439mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.434mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.414mm)(12.424mm,-24.414mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.723mm,-24.414mm)(19.333mm,-24.414mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.388mm)(12.424mm,-24.388mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.749mm,-24.388mm)(19.333mm,-24.388mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.363mm)(12.399mm,-24.363mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.749mm,-24.363mm)(19.333mm,-24.363mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.5mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.338mm)(12.399mm,-24.338mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.749mm,-24.338mm)(19.333mm,-24.338mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.312mm)(12.399mm,-24.312mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.774mm,-24.312mm)(19.333mm,-24.312mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.287mm)(12.399mm,-24.287mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.774mm,-24.287mm)(19.333mm,-24.287mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.581mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.261mm)(12.399mm,-24.261mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.8mm,-24.261mm)(19.333mm,-24.261mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.602mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.236mm)(12.399mm,-24.236mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.8mm,-24.236mm)(19.333mm,-24.236mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.632mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.211mm)(12.399mm,-24.211mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.8mm,-24.211mm)(19.333mm,-24.211mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.185mm)(12.424mm,-24.185mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-24.185mm)(19.333mm,-24.185mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.16mm)(12.424mm,-24.16mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-24.16mm)(19.333mm,-24.16mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.134mm)(12.424mm,-24.134mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-24.134mm)(19.333mm,-24.134mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.734mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.109mm)(12.424mm,-24.109mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-24.109mm)(19.333mm,-24.109mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.084mm)(12.45mm,-24.084mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-24.084mm)(19.333mm,-24.084mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.78mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.058mm)(12.45mm,-24.058mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-24.058mm)(19.333mm,-24.058mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.033mm)(12.45mm,-24.033mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-24.033mm)(19.333mm,-24.033mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.831mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-24.007mm)(12.475mm,-24.007mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-24.007mm)(19.333mm,-24.007mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.982mm)(12.475mm,-23.982mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.982mm)(19.333mm,-23.982mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.957mm)(12.5mm,-23.957mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.957mm)(19.333mm,-23.957mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.931mm)(12.526mm,-23.931mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.931mm)(19.333mm,-23.931mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.906mm)(12.526mm,-23.906mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.906mm)(19.333mm,-23.906mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.88mm)(12.551mm,-23.88mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.88mm)(19.333mm,-23.88mm) on Bottom Layer Location : [X = 26.66mm][Y = 89.983mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.855mm)(12.577mm,-23.855mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.855mm)(19.333mm,-23.855mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.83mm)(12.602mm,-23.83mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.83mm)(19.333mm,-23.83mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.034mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.804mm)(12.653mm,-23.804mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.804mm)(19.333mm,-23.804mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.064mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.779mm)(12.678mm,-23.779mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.779mm)(19.333mm,-23.779mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.085mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.753mm)(12.754mm,-23.753mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.753mm)(19.333mm,-23.753mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.11mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.728mm)(12.805mm,-23.728mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.728mm)(19.333mm,-23.728mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.135mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.703mm)(12.856mm,-23.703mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.703mm)(19.333mm,-23.703mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.161mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.677mm)(12.932mm,-23.677mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.876mm,-23.677mm)(19.333mm,-23.677mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.186mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.652mm)(12.983mm,-23.652mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.652mm)(19.333mm,-23.652mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.212mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.626mm)(13.059mm,-23.626mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.626mm)(19.333mm,-23.626mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.237mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.601mm)(13.135mm,-23.601mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.601mm)(19.333mm,-23.601mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.576mm)(13.212mm,-23.576mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.576mm)(19.333mm,-23.576mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.55mm)(13.288mm,-23.55mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.55mm)(19.333mm,-23.55mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.525mm)(13.364mm,-23.525mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.85mm,-23.525mm)(19.333mm,-23.525mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.499mm)(13.44mm,-23.499mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-23.499mm)(19.333mm,-23.499mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.474mm)(13.491mm,-23.474mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-23.474mm)(19.333mm,-23.474mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.449mm)(13.516mm,-23.449mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-23.449mm)(19.333mm,-23.449mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.423mm)(13.567mm,-23.423mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.825mm,-23.423mm)(19.333mm,-23.423mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.398mm)(13.618mm,-23.398mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.8mm,-23.398mm)(19.333mm,-23.398mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.372mm)(13.618mm,-23.372mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.8mm,-23.372mm)(19.333mm,-23.372mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.491mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.347mm)(13.643mm,-23.347mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.774mm,-23.347mm)(19.333mm,-23.347mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.322mm)(13.669mm,-23.322mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.774mm,-23.322mm)(19.333mm,-23.322mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.296mm)(13.669mm,-23.296mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.774mm,-23.296mm)(19.333mm,-23.296mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.567mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.271mm)(12.5mm,-23.271mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.749mm,-23.271mm)(19.333mm,-23.271mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.593mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.245mm)(12.5mm,-23.245mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.749mm,-23.245mm)(19.333mm,-23.245mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.618mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.22mm)(12.5mm,-23.22mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.723mm,-23.22mm)(19.333mm,-23.22mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.195mm)(12.526mm,-23.195mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.723mm,-23.195mm)(19.333mm,-23.195mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.169mm)(12.526mm,-23.169mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.698mm,-23.169mm)(19.333mm,-23.169mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.144mm)(12.526mm,-23.144mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.673mm,-23.144mm)(19.333mm,-23.144mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.72mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.118mm)(12.551mm,-23.118mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.673mm,-23.118mm)(19.333mm,-23.118mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.093mm)(12.551mm,-23.093mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.647mm,-23.093mm)(19.333mm,-23.093mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.77mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.068mm)(12.551mm,-23.068mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.622mm,-23.068mm)(19.333mm,-23.068mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.042mm)(12.577mm,-23.042mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.596mm,-23.042mm)(19.333mm,-23.042mm) on Bottom Layer Location : [X = 26.66mm][Y = 90.821mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-23.017mm)(12.577mm,-23.017mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.596mm,-23.017mm)(19.333mm,-23.017mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.991mm)(12.602mm,-22.991mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.571mm,-22.991mm)(19.333mm,-22.991mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.966mm)(12.627mm,-22.966mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.52mm,-22.966mm)(19.333mm,-22.966mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.941mm)(12.627mm,-22.941mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.52mm,-22.941mm)(19.333mm,-22.941mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.915mm)(12.653mm,-22.915mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.469mm,-22.915mm)(19.333mm,-22.915mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.89mm)(12.678mm,-22.89mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.444mm,-22.89mm)(19.333mm,-22.89mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.864mm)(12.704mm,-22.864mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.419mm,-22.864mm)(19.333mm,-22.864mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.839mm)(12.729mm,-22.839mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.368mm,-22.839mm)(19.333mm,-22.839mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.814mm)(12.754mm,-22.814mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.342mm,-22.814mm)(19.333mm,-22.814mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.788mm)(12.78mm,-22.788mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.292mm,-22.788mm)(19.333mm,-22.788mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.075mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.763mm)(12.831mm,-22.763mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.241mm,-22.763mm)(19.333mm,-22.763mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.101mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.737mm)(12.881mm,-22.737mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.165mm,-22.737mm)(19.333mm,-22.737mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.126mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.712mm)(12.932mm,-22.712mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.114mm,-22.712mm)(19.333mm,-22.712mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.151mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.687mm)(12.983mm,-22.687mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (18.038mm,-22.687mm)(19.333mm,-22.687mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.177mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.661mm)(13.11mm,-22.661mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (17.911mm,-22.661mm)(19.333mm,-22.661mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.636mm)(17.631mm,-22.636mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (17.657mm,-22.636mm)(19.333mm,-22.636mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.61mm)(19.333mm,-22.61mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.253mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.585mm)(19.333mm,-22.585mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.56mm)(19.333mm,-22.56mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.534mm)(19.333mm,-22.534mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.509mm)(19.333mm,-22.509mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.355mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.483mm)(19.333mm,-22.483mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.38mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.458mm)(19.333mm,-22.458mm) on Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Polygon Region (15 hole(s)) Bottom Layer And Track (11.713mm,-22.331mm)(19.333mm,-22.331mm) on Bottom Layer Location : [X = 26.66mm][Y = 91.542mm]
+Rule Violations :206
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InUnion(1048602)),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=2mm) (Preferred=0.5mm) (InNetClass('Power'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=2539.975mm) (Max=1mm) (Preferred=0.254mm) (InUnion(1048600) or InUnion(1048601))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD Neck-Down Constraint (Percent=95%) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.125mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.01mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 206
+Time Elapsed        : 00:00:08

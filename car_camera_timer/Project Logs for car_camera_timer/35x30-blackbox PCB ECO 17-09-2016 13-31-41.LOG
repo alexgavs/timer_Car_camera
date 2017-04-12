@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=R10 Old Footprint=RES_0805 New Footprint=AXIAL-0.3
+Added Component: Designator=P3(MHDR1X4)
+Added Pin To Net: NetName=BAT12V Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=CAMERA+12V Pin=P3-3
+Added Pin To Net: NetName=FROM_REVERSE Pin=P3-4
+Added Member To Class: ClassName=Sheet2 Member=Component P3 MHDR1X4

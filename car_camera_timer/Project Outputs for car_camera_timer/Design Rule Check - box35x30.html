@@ -1,0 +1,535 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">6/15/2016</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:11:20 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc" class="file"><acronym title="D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc">D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">61</td></tr>
+</table>
+</td>
+</table><a name="IDZCO0AJEBTPTACK0ULQAVRNDE5I11KQFAZIDLLFM5L01Y1AKI1U0"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPW1E300CZW1TBBRVDZ0AKBQDSHZPFRW0AHFBBIHI2NKPYMMKLICN">Clearance Constraint (Gap=0.152mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5WVUIGRB5A0UIS42TWJ1OPDLJPTZLQUO2BITZCHMAO2220WQ2G2B">Width Constraint (Min=0.001mm) (Max=1mm) (Preferred=0.254mm) (InUnion(1))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDK4DAPW2GXX5PJBSUOU1DMZ3X2Q00TO2MDSD2JCSJ1LVA3IUMMN">Width Constraint (Min=0.3mm) (Max=2mm) (Preferred=0.5mm) (InNetClass('Power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUAKMWKGOJEOZ2WELJN34GSPSGFM2S5RMXQGUYNCAY3K0PKCLPVH">Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3LZOQG44ZM0FLKCSO5Y1KAYK2EI1RVI5HZ0S1NBB1DJYIWK354FH">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJTLA05ZC5CDJM05USO1NVOXUPGPSSEBW4I4SIQLUVTZU4UKBRBUP">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCH4C31NCUA2ZBCEWAHNGLVSLMKOANQXR0AJ2FMG5YGW2O3LBPBZJ">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAS41BNYME5MZO1E2GTBGMJ1Z2L0U0PJENCIVIIOPTMQTZQBBTKCP">Minimum Annular Ring (Minimum=0.1mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDRYW4JPRDQBKV5VKZAE2OQ4LMM4FUMNX4QIZIL43F3J2MADK2NK">Hole Size Constraint (Min=0.125mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHREH31VAJHO4G0RJ4N4BWAFPHNWPYJXBJKYTZ5BC5BUU3RMIPBZK">SMD Neck-Down Constraint (Percent=95%) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5WPE154ZEXKCOTFUZLURNN5GPPCI0OCYJPREYWFT5C0GG104ZKLD">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFEAW5Y0SDGSYDUBXQ5BLH4MDYJZZQVQS2HCW0TOKJUZFIXELXUJF">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTHGHM3IXCGIBPBGXXMBHYC2GRNUYW1IZSFSJS4E1A2ETIHJ5H1EG">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4N0QY3HDEXIINZBVMY55W1KPCEXDBTCCR2LG5TI2C25FLBZE3GBL">Silk To Solder Mask (Clearance=0.178mm) (IsPad),(All)</a></td>
+<td class="column2">49</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGUNX3RULWAP0LYUYDLMMSXZ2KAWCGBAIZSO54I4EY0FODEUD41L">Silk to Silk (Clearance=0.01mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQQFG4VEU0PCHFPBTQ52KHNUQRP34L0BC3JYF2ENIPEY3GIVKHP3F">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1GRA5SBUNK1PPSWCNMPBWQLTOKBR2PZM3MXY0NM5TQFYJZDZZ3BO">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">61</td>
+</tr>
+</table><br><a name="IDCH4C31NCUA2ZBCEWAHNGLVSLMKOANQXR0AJ2FMG5YGW2O3LBPBZJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3850mil|Location2.X=4050mil|Location1.Y=3543.37mil|Location2.Y=3744mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3850mil|Location2.X=4050mil|Location1.Y=3543.37mil|Location2.Y=3744mil|Absolute=True">Un-Routed Net Constraint: Net 12V Between Pad R1-2(100.33mm,92.542mm) on Top Layer And Track (100.33mm,92.558mm)(102.362mm,92.558mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTHGHM3IXCGIBPBGXXMBHYC2GRNUYW1IZSFSJS4E1A2ETIHJ5H1EG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4239.69mil|Location2.X=4250.94mil|Location1.Y=3224.375mil|Location2.Y=3235.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4239.69mil|Location2.X=4250.94mil|Location1.Y=3224.375mil|Location2.Y=3235.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P3-3(108.331mm,82.677mm) on Multi-Layer And Pad P3-4(108.331mm,81.407mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4239.69mil|Location2.X=4250.94mil|Location1.Y=3274.375mil|Location2.Y=3285.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4239.69mil|Location2.X=4250.94mil|Location1.Y=3274.375mil|Location2.Y=3285.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P3-2(108.331mm,83.947mm) on Multi-Layer And Pad P3-3(108.331mm,82.677mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4239.69mil|Location2.X=4250.94mil|Location1.Y=3324.375mil|Location2.Y=3335.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4239.69mil|Location2.X=4250.94mil|Location1.Y=3324.375mil|Location2.Y=3335.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P3-1(108.331mm,85.217mm) on Multi-Layer And Pad P3-2(108.331mm,83.947mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3364.375mil|Location2.Y=3375.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3364.375mil|Location2.Y=3375.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P1-2(79.502mm,84.963mm) on Multi-Layer And Pad P1-1(79.502mm,86.233mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3314.375mil|Location2.Y=3325.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3314.375mil|Location2.Y=3325.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P1-3(79.502mm,83.693mm) on Multi-Layer And Pad P1-2(79.502mm,84.963mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3264.375mil|Location2.Y=3275.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3264.375mil|Location2.Y=3275.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P1-4(79.502mm,82.423mm) on Multi-Layer And Pad P1-3(79.502mm,83.693mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3214.375mil|Location2.Y=3225.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3214.375mil|Location2.Y=3225.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P1-5(79.502mm,81.153mm) on Multi-Layer And Pad P1-4(79.502mm,82.423mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3164.375mil|Location2.Y=3175.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.375mil|Location2.X=3135.625mil|Location1.Y=3164.375mil|Location2.Y=3175.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.07mm &lt; 0.254mm) Between Pad P1-6(79.502mm,79.883mm) on Multi-Layer And Pad P1-5(79.502mm,81.153mm) on Multi-Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3739.375mil|Location2.X=3750.625mil|Location1.Y=3003.022mil|Location2.Y=3014.272mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3739.375mil|Location2.X=3750.625mil|Location1.Y=3003.022mil|Location2.Y=3014.272mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.088mm &lt; 0.254mm) Between Pad LD1-1(94.77mm,77.064mm) on Top Layer And Pad Free-2(95.123mm,75.514mm) on Multi-Layer [Top Solder] Mask Sliver [0.088mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3829.354mil|Location2.X=3840.604mil|Location1.Y=3001.381mil|Location2.Y=3012.631mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3829.354mil|Location2.X=3840.604mil|Location1.Y=3001.381mil|Location2.Y=3012.631mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.173mm &lt; 0.254mm) Between Pad LD1-2(98.27mm,77.064mm) on Top Layer And Pad Free-3(97.282mm,75.438mm) on Multi-Layer [Top Solder] Mask Sliver [0.173mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.864mil|Location2.X=3870.114mil|Location1.Y=2978.19mil|Location2.Y=2991.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.864mil|Location2.X=3870.114mil|Location1.Y=2978.19mil|Location2.Y=2991.661mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.208mm &lt; 0.254mm) Between Pad C5-2(99.127mm,78.689mm) on Bottom Layer And Pad Free-3(97.282mm,75.438mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.208mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4N0QY3HDEXIINZBVMY55W1KPCEXDBTCCR2LG5TI2C25FLBZE3GBL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.178mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3810.293mil|Location2.X=3815.965mil|Location1.Y=2982.237mil|Location2.Y=2987.909mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3810.293mil|Location2.X=3815.965mil|Location1.Y=2982.237mil|Location2.Y=2987.909mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.178mm) Between Arc (96.52mm,76.764mm) on Top Overlay And Pad Free-3(97.282mm,75.438mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3762.76mil|Location2.X=3772.028mil|Location1.Y=2987.982mil|Location2.Y=2998.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3762.76mil|Location2.X=3772.028mil|Location1.Y=2987.982mil|Location2.Y=2998.038mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.012mm &lt; 0.178mm) Between Arc (96.52mm,76.764mm) on Top Overlay And Pad Free-2(95.123mm,75.514mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.012mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.107mil|Location2.X=4226.365mil|Location1.Y=3200.871mil|Location2.Y=3209.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.107mil|Location2.X=4226.365mil|Location1.Y=3200.871mil|Location2.Y=3209.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.168mm &lt; 0.178mm) Between Track (107.061mm,80.507mm)(107.061mm,86.117mm) on Top Overlay And Pad P3-4(108.331mm,81.407mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.168mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.635mil|Location2.X=4311.893mil|Location1.Y=3200.871mil|Location2.Y=3209.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.635mil|Location2.X=4311.893mil|Location1.Y=3200.871mil|Location2.Y=3209.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.168mm &lt; 0.178mm) Between Track (109.601mm,80.507mm)(109.601mm,86.117mm) on Top Overlay And Pad P3-4(108.331mm,81.407mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.168mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.107mil|Location2.X=4226.365mil|Location1.Y=3250.871mil|Location2.Y=3259.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.107mil|Location2.X=4226.365mil|Location1.Y=3250.871mil|Location2.Y=3259.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.168mm &lt; 0.178mm) Between Track (107.061mm,80.507mm)(107.061mm,86.117mm) on Top Overlay And Pad P3-3(108.331mm,82.677mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.168mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.635mil|Location2.X=4311.893mil|Location1.Y=3250.871mil|Location2.Y=3259.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.635mil|Location2.X=4311.893mil|Location1.Y=3250.871mil|Location2.Y=3259.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.168mm &lt; 0.178mm) Between Track (109.601mm,80.507mm)(109.601mm,86.117mm) on Top Overlay And Pad P3-3(108.331mm,82.677mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.168mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.107mil|Location2.X=4226.365mil|Location1.Y=3300.871mil|Location2.Y=3309.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.107mil|Location2.X=4226.365mil|Location1.Y=3300.871mil|Location2.Y=3309.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.168mm &lt; 0.178mm) Between Track (107.061mm,80.507mm)(107.061mm,86.117mm) on Top Overlay And Pad P3-2(108.331mm,83.947mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.168mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.635mil|Location2.X=4311.893mil|Location1.Y=3300.871mil|Location2.Y=3309.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.635mil|Location2.X=4311.893mil|Location1.Y=3300.871mil|Location2.Y=3309.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.168mm &lt; 0.178mm) Between Track (109.601mm,80.507mm)(109.601mm,86.117mm) on Top Overlay And Pad P3-2(108.331mm,83.947mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.168mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.154mil|Location2.X=4226.412mil|Location1.Y=3344.915mil|Location2.Y=3353.173mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4218.154mil|Location2.X=4226.412mil|Location1.Y=3344.915mil|Location2.Y=3353.173mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.17mm &lt; 0.178mm) Between Track (107.061mm,80.507mm)(107.061mm,86.117mm) on Top Overlay And Pad P3-1(108.331mm,85.217mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.17mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.588mil|Location2.X=4311.845mil|Location1.Y=3331.186mil|Location2.Y=3339.444mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.588mil|Location2.X=4311.845mil|Location1.Y=3331.186mil|Location2.Y=3339.444mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.17mm &lt; 0.178mm) Between Track (109.601mm,80.507mm)(109.601mm,86.117mm) on Top Overlay And Pad P3-1(108.331mm,85.217mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.17mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.373mil|Location2.X=3772.631mil|Location1.Y=3339.861mil|Location2.Y=3348.118mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.373mil|Location2.X=3772.631mil|Location1.Y=3339.861mil|Location2.Y=3348.118mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Text "C1" (95.631mm,85.192mm) on Bottom Overlay And Pad C1-1(96.7mm,84.684mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4115.721mil|Location2.X=4123.979mil|Location1.Y=3269.101mil|Location2.Y=3277.359mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4115.721mil|Location2.X=4123.979mil|Location1.Y=3269.101mil|Location2.Y=3277.359mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.171mm &lt; 0.178mm) Between Text "FRONT" (107.061mm,82.423mm) on Bottom Overlay And Pad LDO1-2(103.543mm,84.176mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.171mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4110.485mil|Location2.X=4116.157mil|Location1.Y=3345.003mil|Location2.Y=3350.675mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4110.485mil|Location2.X=4116.157mil|Location1.Y=3345.003mil|Location2.Y=3350.675mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.178mm) Between Text "BAT12V" (106.934mm,84.963mm) on Bottom Overlay And Pad LDO1-2(103.543mm,84.176mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3490.506mil|Location2.Y=3498.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3490.506mil|Location2.Y=3498.763mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (84.328mm,88.748mm)(85.09mm,88.748mm) on Bottom Overlay And Pad R3-2(85.709mm,89.383mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3539.237mil|Location2.Y=3547.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3539.237mil|Location2.Y=3547.494mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (84.328mm,90.018mm)(85.09mm,90.018mm) on Bottom Overlay And Pad R3-2(85.709mm,89.383mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.307mil|Location2.X=3318.565mil|Location1.Y=3491.364mil|Location2.Y=3502.804mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.307mil|Location2.X=3318.565mil|Location1.Y=3491.364mil|Location2.Y=3502.804mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.166mm &lt; 0.178mm) Between Track (84.328mm,88.748mm)(85.09mm,88.748mm) on Bottom Overlay And Pad R3-1(83.709mm,89.383mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.166mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.307mil|Location2.X=3319.532mil|Location1.Y=3533.889mil|Location2.Y=3546.636mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.307mil|Location2.X=3319.532mil|Location1.Y=3533.889mil|Location2.Y=3546.636mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.166mm &lt; 0.178mm) Between Track (84.328mm,90.018mm)(85.09mm,90.018mm) on Bottom Overlay And Pad R3-1(83.709mm,89.383mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.166mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3560.506mil|Location2.Y=3568.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3560.506mil|Location2.Y=3568.763mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (84.328mm,90.526mm)(85.09mm,90.526mm) on Bottom Overlay And Pad R4-2(85.709mm,91.161mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3609.237mil|Location2.Y=3617.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3351.409mil|Location2.X=3359.666mil|Location1.Y=3609.237mil|Location2.Y=3617.494mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (84.328mm,91.796mm)(85.09mm,91.796mm) on Bottom Overlay And Pad R4-2(85.709mm,91.161mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.334mil|Location2.X=3318.591mil|Location1.Y=3560.506mil|Location2.Y=3568.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.334mil|Location2.X=3318.591mil|Location1.Y=3560.506mil|Location2.Y=3568.763mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (84.328mm,90.526mm)(85.09mm,90.526mm) on Bottom Overlay And Pad R4-1(83.709mm,91.161mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.334mil|Location2.X=3318.591mil|Location1.Y=3609.237mil|Location2.Y=3617.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3310.334mil|Location2.X=3318.591mil|Location1.Y=3609.237mil|Location2.Y=3617.494mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (84.328mm,91.796mm)(85.09mm,91.796mm) on Bottom Overlay And Pad R4-1(83.709mm,91.161mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3921.506mil|Location2.X=3929.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3921.506mil|Location2.X=3929.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (99.695mm,91.161mm)(99.695mm,91.923mm) on Top Overlay And Pad R1-2(100.33mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3970.237mil|Location2.X=3978.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3970.237mil|Location2.X=3978.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (100.965mm,91.161mm)(100.965mm,91.923mm) on Top Overlay And Pad R1-2(100.33mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3921.506mil|Location2.X=3929.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3921.506mil|Location2.X=3929.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (99.695mm,91.161mm)(99.695mm,91.923mm) on Top Overlay And Pad R1-1(100.33mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3970.237mil|Location2.X=3978.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3970.237mil|Location2.X=3978.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (100.965mm,91.161mm)(100.965mm,91.923mm) on Top Overlay And Pad R1-1(100.33mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4001.506mil|Location2.X=4009.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4001.506mil|Location2.X=4009.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (101.727mm,91.161mm)(101.727mm,91.923mm) on Top Overlay And Pad R2-2(102.362mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4050.237mil|Location2.X=4058.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4050.237mil|Location2.X=4058.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (102.997mm,91.161mm)(102.997mm,91.923mm) on Top Overlay And Pad R2-2(102.362mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4001.506mil|Location2.X=4009.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4001.506mil|Location2.X=4009.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (101.727mm,91.161mm)(101.727mm,91.923mm) on Top Overlay And Pad R2-1(102.362mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4050.237mil|Location2.X=4058.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4050.237mil|Location2.X=4058.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (102.997mm,91.161mm)(102.997mm,91.923mm) on Top Overlay And Pad R2-1(102.362mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3586.506mil|Location2.X=3594.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3586.506mil|Location2.X=3594.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (91.186mm,91.161mm)(91.186mm,91.923mm) on Top Overlay And Pad R5-2(91.821mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3635.237mil|Location2.X=3643.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3635.237mil|Location2.X=3643.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (92.456mm,91.161mm)(92.456mm,91.923mm) on Top Overlay And Pad R5-2(91.821mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3586.506mil|Location2.X=3594.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3586.506mil|Location2.X=3594.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (91.186mm,91.161mm)(91.186mm,91.923mm) on Top Overlay And Pad R5-1(91.821mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3635.237mil|Location2.X=3643.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3635.237mil|Location2.X=3643.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (92.456mm,91.161mm)(92.456mm,91.923mm) on Top Overlay And Pad R5-1(91.821mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3895.237mil|Location2.X=3903.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3895.237mil|Location2.X=3903.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (99.06mm,91.161mm)(99.06mm,91.923mm) on Top Overlay And Pad R6-2(98.425mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3846.506mil|Location2.X=3854.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3846.506mil|Location2.X=3854.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (97.79mm,91.161mm)(97.79mm,91.923mm) on Top Overlay And Pad R6-2(98.425mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3895.237mil|Location2.X=3903.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3895.237mil|Location2.X=3903.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (99.06mm,91.161mm)(99.06mm,91.923mm) on Top Overlay And Pad R6-1(98.425mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3846.506mil|Location2.X=3854.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3846.506mil|Location2.X=3854.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (97.79mm,91.161mm)(97.79mm,91.923mm) on Top Overlay And Pad R6-1(98.425mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4070.334mil|Location2.X=4078.591mil|Location1.Y=3070.506mil|Location2.Y=3078.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4070.334mil|Location2.X=4078.591mil|Location1.Y=3070.506mil|Location2.Y=3078.763mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (103.632mm,78.08mm)(104.394mm,78.08mm) on Top Overlay And Pad R8-2(103.013mm,78.715mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4070.334mil|Location2.X=4078.591mil|Location1.Y=3119.237mil|Location2.Y=3127.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4070.334mil|Location2.X=4078.591mil|Location1.Y=3119.237mil|Location2.Y=3127.494mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (103.632mm,79.35mm)(104.394mm,79.35mm) on Top Overlay And Pad R8-2(103.013mm,78.715mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4111.408mil|Location2.X=4119.666mil|Location1.Y=3070.506mil|Location2.Y=3078.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4111.408mil|Location2.X=4119.666mil|Location1.Y=3070.506mil|Location2.Y=3078.763mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (103.632mm,78.08mm)(104.394mm,78.08mm) on Top Overlay And Pad R8-1(105.013mm,78.715mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4111.408mil|Location2.X=4119.666mil|Location1.Y=3119.237mil|Location2.Y=3127.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4111.408mil|Location2.X=4119.666mil|Location1.Y=3119.237mil|Location2.Y=3127.494mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (103.632mm,79.35mm)(104.394mm,79.35mm) on Top Overlay And Pad R8-1(105.013mm,78.715mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.237mil|Location2.X=4138.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.237mil|Location2.X=4138.494mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (105.029mm,91.161mm)(105.029mm,91.923mm) on Top Overlay And Pad R9-2(104.394mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.506mil|Location2.X=4089.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.506mil|Location2.X=4089.763mil|Location1.Y=3579.334mil|Location2.Y=3587.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (103.759mm,91.161mm)(103.759mm,91.923mm) on Top Overlay And Pad R9-2(104.394mm,90.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.237mil|Location2.X=4138.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4130.237mil|Location2.X=4138.494mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (105.029mm,91.161mm)(105.029mm,91.923mm) on Top Overlay And Pad R9-1(104.394mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.506mil|Location2.X=4089.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.506mil|Location2.X=4089.763mil|Location1.Y=3620.409mil|Location2.Y=3628.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (103.759mm,91.161mm)(103.759mm,91.923mm) on Top Overlay And Pad R9-1(104.394mm,92.542mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3750.237mil|Location2.X=3758.494mil|Location1.Y=3144.334mil|Location2.Y=3152.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3750.237mil|Location2.X=3758.494mil|Location1.Y=3144.334mil|Location2.Y=3152.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (95.377mm,80.112mm)(95.377mm,80.874mm) on Top Overlay And Pad R7-2(94.742mm,79.493mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3701.506mil|Location2.X=3709.763mil|Location1.Y=3144.334mil|Location2.Y=3152.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3701.506mil|Location2.X=3709.763mil|Location1.Y=3144.334mil|Location2.Y=3152.591mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (94.107mm,80.112mm)(94.107mm,80.874mm) on Top Overlay And Pad R7-2(94.742mm,79.493mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3750.237mil|Location2.X=3758.494mil|Location1.Y=3185.409mil|Location2.Y=3193.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3750.237mil|Location2.X=3758.494mil|Location1.Y=3185.409mil|Location2.Y=3193.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (95.377mm,80.112mm)(95.377mm,80.874mm) on Top Overlay And Pad R7-1(94.742mm,81.493mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3701.506mil|Location2.X=3709.763mil|Location1.Y=3185.409mil|Location2.Y=3193.666mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\ALTIUM\doc\Projects\timer_Car_camera\car_camera_timer\box35x30.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3701.506mil|Location2.X=3709.763mil|Location1.Y=3185.409mil|Location2.Y=3193.666mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.156mm &lt; 0.178mm) Between Track (94.107mm,80.112mm)(94.107mm,80.874mm) on Top Overlay And Pad R7-1(94.742mm,81.493mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.156mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

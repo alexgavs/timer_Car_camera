@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=CAMERA+12V Pin=P?-1
+Removed Pin From Net: NetName=FROM_REVERSE Pin=P?-2
+Removed Pin From Net: NetName=GND Pin=P?-3
+Removed Pin From Net: NetName=BAT12V Pin=P?-4
+Added Component: Designator=FR.AV(J_1)
+Added Component: Designator=FRONT 12V(J_1)
+Added Component: Designator=FRONT(RCA)
+Added Component: Designator=GFRONT(J_1)
+Added Component: Designator=GOUT(J_1)
+Added Component: Designator=GREAR(J_1)
+Added Component: Designator=OUT.AV(J_1)
+Added Component: Designator=OUTPUT(RCA)
+Added Component: Designator=P2(HDR1X6)
+Added Component: Designator=REAR 12v(J_1)
+Added Component: Designator=REAR.AV(J_1)
+Added Component: Designator=REAR(RCA)
+Added Component: Designator=U3(948F-01_N)
+Added Pin To Net: NetName=V1_Y1 Pin=FR.AV-1
+Added Pin To Net: NetName=CAMERA+12V Pin=FRONT 12V-1
+Added Pin To Net: NetName=GND Pin=FRONT-1
+Added Pin To Net: NetName=GND Pin=FRONT-1
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT-2
+Added Pin To Net: NetName=V1_Y1 Pin=FRONT-3
+Added Pin To Net: NetName=GND Pin=GFRONT-1
+Added Pin To Net: NetName=GND Pin=GOUT-1
+Added Pin To Net: NetName=GND Pin=GREAR-1
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUT.AV-1
+Added Pin To Net: NetName=GND Pin=OUTPUT-1
+Added Pin To Net: NetName=GND Pin=OUTPUT-1
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT-2
+Added Pin To Net: NetName=VIDEO_OUT1 Pin=OUTPUT-3
+Added Pin To Net: NetName=BAT12V Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=CAMERA+12V Pin=P2-3
+Added Pin To Net: NetName=FROM_REVERSE Pin=P2-4
+Added Pin To Net: NetName=GND Pin=P2-5
+Added Pin To Net: NetName=FRONT_SW Pin=P2-6
+Added Pin To Net: NetName=BAT12V Pin=P?-1
+Added Pin To Net: NetName=GND Pin=P?-2
+Added Pin To Net: NetName=CAMERA+12V Pin=P?-3
+Added Pin To Net: NetName=FROM_REVERSE Pin=P?-4
+Added Pin To Net: NetName=FROM_REVERSE Pin=REAR 12v-1
+Added Pin To Net: NetName=GND Pin=REAR-1
+Added Pin To Net: NetName=GND Pin=REAR-1
+Added Pin To Net: NetName=V1_Y0 Pin=REAR-2
+Added Pin To Net: NetName=V1_Y0 Pin=REAR-3
+Added Pin To Net: NetName=V1_Y0 Pin=REAR.AV-1
+Added Pin To Net: NetName=GND Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=VCC Pin=U3-16
+Added Member To Class: ClassName=Sheet2 Member=Component FR.AV CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT 12V CON1
+Added Member To Class: ClassName=Sheet2 Member=Component FRONT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component GFRONT CON1
+Added Member To Class: ClassName=Sheet2 Member=Component GOUT CON1
+Added Member To Class: ClassName=Sheet2 Member=Component GREAR CON1
+Added Member To Class: ClassName=Sheet2 Member=Component OUT.AV CON1
+Added Member To Class: ClassName=Sheet2 Member=Component OUTPUT RCA
+Added Member To Class: ClassName=Sheet2 Member=Component P2 Header 6
+Added Member To Class: ClassName=Sheet2 Member=Component P? VIDEO
+Added Member To Class: ClassName=Sheet2 Member=Component REAR 12v CON1
+Added Member To Class: ClassName=Sheet2 Member=Component REAR.AV CON1
+Added Member To Class: ClassName=Sheet2 Member=Component REAR RCA
+Added Member To Class: ClassName=Sheet2 Member=Component U3 MC74HC4052DT

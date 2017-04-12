@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=V1_Y1 Pin=FRONT-2
+Removed Pin From Net: NetName=V1_Y1 Pin=FRONT-3
+Removed Pin From Net: NetName=VIDEO_OUT1 Pin=OUTPUT-2
+Removed Pin From Net: NetName=VIDEO_OUT1 Pin=OUTPUT-3
+Removed Pin From Net: NetName=V1_Y0 Pin=REAR-2
+Removed Pin From Net: NetName=V1_Y0 Pin=REAR-3
+Added Pin To Net: NetName=GND Pin=FRONT-2
+Added Pin To Net: NetName=GND Pin=FRONT-3
+Added Pin To Net: NetName=GND Pin=OUTPUT-2
+Added Pin To Net: NetName=GND Pin=OUTPUT-3
+Added Pin To Net: NetName=GND Pin=REAR-2
+Added Pin To Net: NetName=GND Pin=REAR-3
+Added Room: Name=Sheet2
